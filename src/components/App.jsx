@@ -6,7 +6,7 @@ import Footer from './ui/Footer';
 
 export default function App() {
   return (
-    <div className='container'>
+    <div>
       <Navbar />
       <AppRoutes />
       <Footer />
