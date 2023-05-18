@@ -6,6 +6,7 @@ import Contacts from './pages/Contacts';
 import FAQ from './pages/FAQ';
 import Jobs from './pages/Jobs';
 import Policy from './pages/Policy';
+import DeclarationInfo from './pages/DeclarationInfo';
 import Auth from './auth/Auth';
 import Profile from './profile';
 import Services from './services';
@@ -27,6 +28,7 @@ export default function AppRoutes() {
       <Route path='/jobs' element={<Jobs />} />
       <Route path='/policy' element={<Policy />} />
       <Route path='/auth' element={<Auth />} />
+      <Route path='/declarationInfo' element={<DeclarationInfo />} />
       <Route path='/profile' element={<Profile />} />
       <Route path='/services' element={<Services />} />
       <Route path='/services/air' element={<Air />} />
