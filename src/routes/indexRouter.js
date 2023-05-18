@@ -10,5 +10,9 @@ router
     const initState = {};
     res.render('Layout', initState);
   })
+  .get('/policy', (req, res) => {
+    const initState = {};
+    res.render('Layout', initState);
+  })
 
 export default router;
