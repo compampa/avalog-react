@@ -3,7 +3,7 @@ import ShowTextServices from '../ui/ShowTextServices'
 import ButtonServices from '../ui/ButtonServices'
 
 export default function Services() {
-  const items = {path: 'multimodal', imgURL: './icons/multimodal.svg'}
+  const items = [{path: 'multimodal', imgURL: 'multimodal.svg'}]
 
   return (
     <div >
