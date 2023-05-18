@@ -18,5 +18,9 @@ router
     const initState = {};
     res.render('Layout', initState);
   })
+  .get('/RailwaysInfo', (req, res) => {
+    const initState = {};
+    res.render('Layout', initState);
+  })
 
 export default router;
