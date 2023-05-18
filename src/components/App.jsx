@@ -8,7 +8,7 @@ import LinksFooter from './ui/LinksFooter';
 export default function App() {
 
   return (
-    <div>
+    <div className='bg-black'>
       <Navbar />
       <AppRoutes />
       <LinksFooter />
