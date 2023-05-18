@@ -8,6 +8,8 @@ import Jobs from './pages/Jobs';
 import Policy from './pages/Policy';
 import DeclarationInfo from './pages/DeclarationInfo';
 import RailwaysInfo from './pages/RailwaysInfo';
+import CargoInfo from './pages/CargoInfo';
+import WorldInfo from './pages/WorldInfo';
 import Auth from './auth/Auth';
 import Profile from './profile';
 import Services from './services';
@@ -30,7 +32,9 @@ export default function AppRoutes() {
       <Route path='/policy' element={<Policy />} />
       <Route path='/auth' element={<Auth />} />
       <Route path='/declarationInfo' element={<DeclarationInfo />} />
-      <Route path='/RailwaysInfo' element={<RailwaysInfo />} />
+      <Route path='/railwaysInfo' element={<RailwaysInfo />} />
+      <Route path='/worldInfo' element={<WorldInfo />} />
+      <Route path='/cargoInfo' element={<CargoInfo />} />
       <Route path='/profile' element={<Profile />} />
       <Route path='/services' element={<Services />} />
       <Route path='/services/air' element={<Air />} />

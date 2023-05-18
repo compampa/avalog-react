@@ -5,7 +5,7 @@ export default function RailwaysInfo() {
   return (
     <div >
       <div className="container text-white mt-5" style={{ width: '1000px', marginBottom: '50px', marginLeft: '300px' }}>
-        <h1 className='bold-text' style={{ fontSize: '54px' }}>Таможенное оформление</h1>
+        <h1 className='bold-text' style={{ fontSize: '54px' }}>Железнодорожные перевозки</h1>
       </div>
       <div className='mb-5' style={{ fontSize: '20px' }}>
         <ButtonShowMoreWhiteDecla title='Какие вагоны подходят для перевозки лесных грузов?'
