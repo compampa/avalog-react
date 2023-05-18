@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Policy() {
   return (
-    <div>Policy</div>
+    <h1>Политика конфиденциальности</h1>
   )
 }
