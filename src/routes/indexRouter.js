@@ -38,5 +38,9 @@ router
     const initState = {};
     res.render('Layout', initState);
   })
+  .get('/sea', (req, res) => {
+    const initState = {};
+    res.render('Layout', initState);
+  })
 
 export default router;
