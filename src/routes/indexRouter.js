@@ -18,7 +18,11 @@ router
     const initState = {};
     res.render('Layout', initState);
   })
-  .get('/RailwaysInfo', (req, res) => {
+  .get('/railwaysInfo', (req, res) => {
+    const initState = {};
+    res.render('Layout', initState);
+  })
+  .get('/cargoInfo', (req, res) => {
     const initState = {};
     res.render('Layout', initState);
   })
