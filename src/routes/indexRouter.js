@@ -6,6 +6,10 @@ router
   .get('/', (req, res) => {
     res.redirect('/services')
   })
+  .get('/services', (req, res) => {
+    const initState = {};
+    res.render('Layout', initState);
+  })
   .get('/about', (req, res) => {
     const initState = {};
     res.render('Layout', initState);
@@ -27,6 +31,10 @@ router
     res.render('Layout', initState);
   })
   .get('/worldInfo', (req, res) => {
+    const initState = {};
+    res.render('Layout', initState);
+  })
+  .get('/rent', (req, res) => {
     const initState = {};
     res.render('Layout', initState);
   })

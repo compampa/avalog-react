@@ -6,8 +6,6 @@ import path from 'path';
 import { pathMiddleware } from './middlewares';
 import jsxRender from './utils/jsxRender';
 import indexRouter from './routes/indexRouter';
-import servicesRouter from './routes/servicesRouter';
-import apiRouter from './routes/apiRouter';
 
 require('dotenv').config();
 
@@ -40,7 +38,5 @@ app.use(pathMiddleware)
 
 
 app.use('/', indexRouter);
-app.use('/services', servicesRouter);
-app.use('/api', apiRouter);
 
 app.listen(PORT, () => console.log(`START ON PORT  ${PORT}`));

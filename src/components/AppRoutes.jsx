@@ -43,7 +43,7 @@ export default function AppRoutes() {
       <Route path='/services/declaration' element={<Declaration />} />
       <Route path='/services/multimodal' element={<Multimodal />} />
       <Route path='/services/railway' element={<Railway />} />
-      <Route path='/services/rent' element={<Rent />} />
+      <Route path='/rent' element={<Rent />} />
       <Route path='/services/sea' element={<Sea />} />
     </Routes>
   )
