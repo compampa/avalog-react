@@ -26,5 +26,9 @@ router
     const initState = {};
     res.render('Layout', initState);
   })
+  .get('/worldInfo', (req, res) => {
+    const initState = {};
+    res.render('Layout', initState);
+  })
 
 export default router;
