@@ -1,6 +1,8 @@
 import React from 'react'
-import ShowTextServices from '../ui/ShowTextServices'
 import ButtonServices from '../ui/ButtonServices'
+import FormCalculationSm from '../ui/FormCalculationSm'
+import FormCalculationLg from '../ui/FormCalculationLg'
+
 
 export default function Services() {
   const items = [
@@ -36,11 +38,12 @@ export default function Services() {
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '128px' }}>
        <img src='./icons/services/map.svg' alt='text' style={{ width: '1000px' }} />
       </div>
-      {/* <div className='mb-5'> */}
-        {/* <ShowTextServices title='Преимущества личного кабинета' text='Главной задачей компании является предоставление наиболее надежных и эффективных логистических решений в международных контейнерных перевозках' /> */}
-      {/* </div> */}
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '47px' }}>
        <img src='./icons/services/servicesText2.png' alt='text' style={{ width: '1000px' }} />
+      </div>
+      <div className='d-flex flex-column my-5 p-5' 
+      style={{width:'880px', backgroundColor:'#2b2929',  marginLeft:'300px', borderRadius:'30px',}}>
+        <FormCalculationLg />
       </div>
     </div>
   )

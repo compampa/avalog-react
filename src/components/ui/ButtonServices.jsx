@@ -9,15 +9,17 @@ export default function ButtonServices({ items }) {
           <div className="col-md-4" key={item.path}>
             <Link
               to={`/services/${item.path}`}
-              className="button-service"
+              className="btn btn-primary button-service"
               style={{
                 textDecoration: 'none',
-                color: 'white',
                 fontSize: '24px',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
                 marginTop: '30px',
+                backgroundColor: 'transparent',
+                color: 'white',
+                border: 'none',
               }}
             >
               <div style={{ height: '100px', marginBottom: '10px' }}>
