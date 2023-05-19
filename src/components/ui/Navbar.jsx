@@ -4,20 +4,20 @@ import ButtonDropdown from './ButtonDropdown';
 
 export default function Navbar() {
   const services = [
-    { name: 'Мультимодальный сервис', path: 'multimodal' },
-    { name: 'Морской сервис', path: 'sea' },
-    { name: 'Желехнодорожный сервис', path: 'railway' },
-    { name: 'Сборные грузы', path: 'cargo' },
-    { name: 'Автомобильные перевозки', path: 'cars' },
-    { name: 'Авиаперевозки', path: 'air' },
-    { name: 'Аренда контейнеров', path: 'rent' },
+    { name: 'Мультимодальные перевозки', path: 'multimodal' },
+    { name: 'Сборный груз', path: 'cargo' },
+    { name: 'Железнодорожный сервис', path: 'railways' },
     { name: 'Таможенное оформление', path: 'declaration' },
+    { name: 'Аренда контейнеров', path: 'rent' },
+    { name: 'Авиаперевозки', path: 'air' },
+    { name: 'Автомобильные перевозки', path: 'cars' },
+    { name: 'Морской сервис', path: 'sea' },
   ]
   const faq = [
-    { name: 'Мультимодальный сервис', path: 'multimodal' },
-    { name: 'Желехнодорожный сервис', path: 'railwaysInfo' },
+    { name: 'Таможенное оформление', path: 'declarationInfo' },
+    { name: 'ЖД перевозки', path: 'railwaysInfo' },
     { name: 'Сборные грузы', path: 'cargoInfo' },
-    { name: 'Таможенное оформление', path: 'declaration' },
+    { name: 'Международные перевозки', path: 'worldInfo' },
   ]
   return (
     <div style={{ backgroundColor: '#2C2929', height: '98px' }} className='d-flex justify-content-between align-items-center'>

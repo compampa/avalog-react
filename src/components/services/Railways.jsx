@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function Railway() {
+export default function Railways() {
   return (
     <div >
       <div style={{ backgroundImage: 'url(./icons/background/railways.svg)', backgroundSize: 'cover', backgroundPosition: 'center', height: '525px' }}>

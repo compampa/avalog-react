@@ -2,6 +2,7 @@ import express from 'express';
 
 const router = express.Router();
 
+// NAVIGATION
 router
   .get('/', (req, res) => {
     res.redirect('/services')
@@ -14,31 +15,42 @@ router
     const initState = {};
     res.render('Layout', initState);
   })
+  .get('/jobs', (req, res) => {
+    const initState = {};
+    res.render('Layout', initState);
+  })
+  .get('/contacts', (req, res) => {
+    const initState = {};
+    res.render('Layout', initState);
+  })
+  .get('/faq', (req, res) => {
+    const initState = {};
+    res.render('Layout', initState);
+  })
   .get('/policy', (req, res) => {
     const initState = {};
     res.render('Layout', initState);
-  })
-  .get('/declarationInfo', (req, res) => {
+  });
+
+// Services
+router
+  .get('/multimodal', (req, res) => {
     const initState = {};
     res.render('Layout', initState);
   })
-  .get('/railwaysInfo', (req, res) => {
+  .get('/cargo', (req, res) => {
     const initState = {};
     res.render('Layout', initState);
   })
-  .get('/cargoInfo', (req, res) => {
+  .get('/railways', (req, res) => {
     const initState = {};
     res.render('Layout', initState);
   })
-  .get('/worldInfo', (req, res) => {
+  .get('/declaration', (req, res) => {
     const initState = {};
     res.render('Layout', initState);
   })
   .get('/rent', (req, res) => {
-    const initState = {};
-    res.render('Layout', initState);
-  })
-  .get('/sea', (req, res) => {
     const initState = {};
     res.render('Layout', initState);
   })
@@ -50,19 +62,25 @@ router
     const initState = {};
     res.render('Layout', initState);
   })
-  .get('/declaration', (req, res) => {
+  .get('/sea', (req, res) => {
+    const initState = {};
+    res.render('Layout', initState);
+  });
+
+// FAQ
+router.get('/declarationInfo', (req, res) => {
+  const initState = {};
+  res.render('Layout', initState);
+})
+  .get('/railwaysInfo', (req, res) => {
     const initState = {};
     res.render('Layout', initState);
   })
-  .get('/railway', (req, res) => {
+  .get('/cargoInfo', (req, res) => {
     const initState = {};
     res.render('Layout', initState);
   })
-  .get('/cargo', (req, res) => {
-    const initState = {};
-    res.render('Layout', initState);
-  })
-  .get('/multimodal', (req, res) => {
+  .get('/worldInfo', (req, res) => {
     const initState = {};
     res.render('Layout', initState);
   })
