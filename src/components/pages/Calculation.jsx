@@ -9,7 +9,7 @@ export default function Calculation() {
         </div>
       </div>
       <div className="container text-white my-5" style={{ width: '1000px' }}>
-        <iframe src="https://www.alta.ru/currency/graph_frame/?code[]=840&code[]=978&code[]=156&min=19&max=19" height="495" style={{ border: "1px solid #333", width: "1000px" }} />
+        <iframe title='currency' src="https://quote.ru/ticker/59111" height="495" style={{ border: "1px solid #333", width: "1000px" }} />
       </div>
     </div>
   )
