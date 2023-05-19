@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function ButtonDropdown( {items}) {
+export default function ButtonDropdown({ items }) {
   return (
-    <div className="dropdown-menu" style={{borderRadius: '30px', backgroundColor:'#D9D9D9'}}>
+    <div className="dropdown-menu" style={{ borderRadius: '30px', backgroundColor: '#D9D9D9' }}>
       {items.map((el, index) => (
         <Link
           style={{
@@ -13,7 +13,7 @@ export default function ButtonDropdown( {items}) {
             borderBottomLeftRadius: index === items.length - 1 ? '30px' : '0',
             borderBottomRightRadius: index === items.length - 1 ? '30px' : '0',
           }}
-          to={`/services/${el.path}`}
+          to={`/${el.path}`}
           className="dropdown-item"
           key={el.path}
         >

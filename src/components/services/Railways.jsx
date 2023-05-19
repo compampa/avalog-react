@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function Railway() {
+export default function Railways() {
   return (
     <div >
       <div style={{ backgroundImage: 'url(./icons/background/railways.svg)', backgroundSize: 'cover', backgroundPosition: 'center', height: '525px' }}>
@@ -14,7 +14,7 @@ export default function Railway() {
             <Link to='/services'>
               <img src="./icons/buttons/request.svg" alt="" />
             </Link>
-            <Link to='/services'>
+            <Link to='/calculation'>
               <img src="./icons/buttons/calculate-black.svg" alt="" />
             </Link>
           </div>

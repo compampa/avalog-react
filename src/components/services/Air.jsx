@@ -6,12 +6,12 @@ export default function Air() {
     <div >
       <div style={{ backgroundImage: 'url(./icons/background/air.svg)', backgroundSize: 'cover', backgroundPosition: 'center', height: '525px' }}>
         <div className="container text-white" style={{ width: '1000px', marginBottom: '250px' }}>
-          <h1 className='bold-text py-5' style={{ fontSize: '34px' }}>AVALOG доставляет грузы чартерными и регулярными авиарейсами в экспортном и импортном направлении, а также перевозит товары комбинированным сервисом, соединяющим в себе морскую и авиадоставку</h1>
-          <div className="d-flex flex-row gap-5">
+          <p className='pt-5' style={{ fontSize: '34px' }}>    AVALOG доставляет грузы чартерными и регулярными авиарейсами в экспортном и импортном направлении, а также перевозит товары комбинированным сервисом, соединяющим в себе морскую и авиадоставку</p>
+          <div className="d-flex flex-row gap-5 mt-5">
             <Link to='/services'>
               <img src="./icons/buttons/request.svg" alt="" />
             </Link>
-            <Link to='/services'>
+            <Link to='/calculation'>
               <img src="./icons/buttons/calculate-black.svg" alt="" />
             </Link>
           </div>

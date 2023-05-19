@@ -7,11 +7,12 @@ export default function Sea() {
       <div style={{ backgroundImage: 'url(./icons/background/sea.svg)', backgroundSize: 'cover', backgroundPosition: 'center', height: '525px' }}>
         <div className="container text-white" style={{ width: '1000px', marginBottom: '250px' }}>
           <h1 className='bold-text py-5' style={{ fontSize: '34px' }}>Морской сервис</h1>
-          <div className="d-flex flex-row gap-5">
+          <p style={{ width: '700px', fontSize: '24px' }}>Компания AVALOG выступает таможенным представителем и предоставляет своим клиентам услуги по таможенному оформлению коммерческих партий грузов, прибывающих на территорию РФ любым видом транспорта.</p>
+          <div className="d-flex flex-row gap-5 mt-5">
             <Link to='/services'>
               <img src="./icons/buttons/request.svg" alt="" />
             </Link>
-            <Link to='/services'>
+            <Link to='/calculation'>
               <img src="./icons/buttons/calculate-black.svg" alt="" />
             </Link>
           </div>

@@ -6,12 +6,12 @@ export default function Cars() {
     <div >
       <div style={{ backgroundImage: 'url(./icons/background/cars.svg)', backgroundSize: 'cover', backgroundPosition: 'center', height: '525px' }}>
         <div className="container text-white" style={{ width: '1000px', marginBottom: '250px' }}>
-          <h1 className='bold-text py-5' style={{ fontSize: '34px' }}>   AVALOG выполняет автомобильные перевозки в рамках мультимодального сервиса, а также для доставки грузов от терминалов прибытия до конечных получателей</h1>
-          <div className="d-flex flex-row gap-5">
+          <p className='pt-5' style={{ fontSize: '34px' }}>AVALOG выполняет автомобильные перевозки в рамках мультимодального сервиса, а также для доставки грузов от терминалов прибытия до конечных получателей</p>
+          <div className="d-flex flex-row gap-5 mt-5">
             <Link to='/services'>
               <img src="./icons/buttons/request.svg" alt="" />
             </Link>
-            <Link to='/services'>
+            <Link to='/calculation'>
               <img src="./icons/buttons/calculate-black.svg" alt="" />
             </Link>
           </div>

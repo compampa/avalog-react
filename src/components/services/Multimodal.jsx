@@ -12,7 +12,7 @@ export default function Multimodal() {
             <Link to='/services'>
               <img src="./icons/buttons/request.svg" alt="" />
             </Link>
-            <Link to='/services'>
+            <Link to='/calculation'>
               <img src="./icons/buttons/calculate-black.svg" alt="" />
             </Link>
           </div>
