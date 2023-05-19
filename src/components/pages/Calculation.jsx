@@ -1,7 +1,6 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
 
-export default function FAQ() {
+export default function Calculation() {
   return (
     <div >
       <div style={{ backgroundImage: 'url(./icons/background/faq.svg)', backgroundSize: 'cover', backgroundPosition: 'center', height: '525px' }}>

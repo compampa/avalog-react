@@ -23,7 +23,7 @@ router
     const initState = {};
     res.render('Layout', initState);
   })
-  .get('/faq', (req, res) => {
+  .get('/calculation', (req, res) => {
     const initState = {};
     res.render('Layout', initState);
   })

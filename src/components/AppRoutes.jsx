@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 
 import About from './pages/About';
 import Contacts from './pages/Contacts';
-import FAQ from './pages/FAQ';
+import Calculation from './pages/Calculation';
 import Jobs from './pages/Jobs';
 import Policy from './pages/Policy';
 import DeclarationInfo from './pages/DeclarationInfo';
@@ -31,6 +31,7 @@ export default function AppRoutes() {
       <Route path='/contacts' element={<Contacts />} />
       <Route path='/auth' element={<Auth />} />
       <Route path='/profile' element={<Profile />} />
+      <Route path='/calculation' element={<Calculation />} />
       <Route path='/policy' element={<Policy />} />
 
       {/* Services */}
@@ -45,7 +46,6 @@ export default function AppRoutes() {
       <Route path='/sea' element={<Sea />} />
 
       {/* FAQ */}
-      <Route path='/faq' element={<FAQ />} />
       <Route path='/declarationInfo' element={<DeclarationInfo />} />
       <Route path='/railwaysInfo' element={<RailwaysInfo />} />
       <Route path='/worldInfo' element={<WorldInfo />} />

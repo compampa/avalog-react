@@ -11,7 +11,7 @@ export default function LinksFooter() {
           <img src="./icons/buttons/consultation.svg" alt="consult" />
         </a>
         {pathname !== '/services' &&
-          <Link to='/services'>
+          <Link to='/calculation'>
             <img src="./icons/buttons/calculate.svg" alt="calc" />
           </Link>
         }

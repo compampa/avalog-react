@@ -23,7 +23,9 @@ export default function Navbar() {
     <div style={{ backgroundColor: '#2C2929', height: '98px' }} className='d-flex justify-content-between align-items-center'>
       <nav style={{ fontSize: '18px' }} className='container d-flex justify-content-between align-items-center'>
         <div className="logo">
-          <img src='./icons/navbar/logo.svg' alt="logo" />
+          <Link to="/services">
+            <img src='./icons/navbar/logo.svg' alt="logo" />
+          </Link>
         </div>
         <Link to="/about" style={{ textDecoration: 'none', color: 'white' }}>О компании</Link>
         <div className="dropdown-center">
