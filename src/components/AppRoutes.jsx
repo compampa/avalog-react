@@ -37,14 +37,14 @@ export default function AppRoutes() {
       <Route path='/cargoInfo' element={<CargoInfo />} />
       <Route path='/profile' element={<Profile />} />
       <Route path='/services' element={<Services />} />
-      <Route path='/services/air' element={<Air />} />
-      <Route path='/services/cargo' element={<Cargo />} />
-      <Route path='/services/cars' element={<Cars />} />
-      <Route path='/services/declaration' element={<Declaration />} />
-      <Route path='/services/multimodal' element={<Multimodal />} />
-      <Route path='/services/railway' element={<Railway />} />
-      <Route path='/services/rent' element={<Rent />} />
-      <Route path='/services/sea' element={<Sea />} />
+      <Route path='/air' element={<Air />} />
+      <Route path='/cargo' element={<Cargo />} />
+      <Route path='/cars' element={<Cars />} />
+      <Route path='/declaration' element={<Declaration />} />
+      <Route path='/multimodal' element={<Multimodal />} />
+      <Route path='/railway' element={<Railway />} />
+      <Route path='/rent' element={<Rent />} />
+      <Route path='/sea' element={<Sea />} />
     </Routes>
   )
 }
