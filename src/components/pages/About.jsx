@@ -5,8 +5,10 @@ import ButtonShowMoreBlack from '../ui/ButtonShowMoreBlack'
 export default function About() {
   return (
     <div >
-      <div className="container text-white mt-5" style={{ width: '1000px', marginBottom: '250px' }}>
-        <h1 className='bold-text' style={{ fontSize: '54px' }}> AVALOG – это создание лучших логистических международных маршрутов под запрос клиента</h1>
+      <div style={{ backgroundImage: 'url(./icons/background/decla.svg)', backgroundSize: 'cover', backgroundPosition: 'center', height: '525px' }}>
+        <div className="container text-white" style={{ width: '1000px', marginBottom: '250px' }}>
+          <h1 className='bold-text py-5' style={{ fontSize: '64px' }}> AVALOG – это создание лучших логистических международных маршрутов под запрос клиента</h1>
+        </div>
       </div>
       <div className='mb-5'>
         <ButtonShowMoreWhite title='Деятельность' text='Главной задачей компании является предоставление наиболее надежных и эффективных логистических решений в международных контейнерных перевозках' />
