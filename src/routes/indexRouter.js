@@ -58,5 +58,9 @@ router
     const initState = {};
     res.render('Layout', initState);
   })
+  .get('/cargo', (req, res) => {
+    const initState = {};
+    res.render('Layout', initState);
+  })
 
 export default router;
