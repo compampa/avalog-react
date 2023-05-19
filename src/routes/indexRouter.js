@@ -46,5 +46,9 @@ router
     const initState = {};
     res.render('Layout', initState);
   })
+  .get('/cars', (req, res) => {
+    const initState = {};
+    res.render('Layout', initState);
+  })
 
 export default router;
