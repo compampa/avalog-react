@@ -5,7 +5,10 @@ import { Link } from 'react-router-dom';
 export default function Footer() {
   return (
     <footer className="footer text-white" style={{
-      backgroundColor: '#2C2929'
+      backgroundColor: '#2C2929',
+      position: 'absolute',
+      left: 0,
+      right: 0
     }}
     >
       <div className="container">

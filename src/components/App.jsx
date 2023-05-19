@@ -8,7 +8,7 @@ import LinksFooter from './ui/LinksFooter';
 export default function App() {
 
   return (
-    <div className='bg-black'>
+    <div className='bg-black' style={{ fontFamily: 'Roboto' }}>
       <Navbar />
       <AppRoutes />
       <LinksFooter />
