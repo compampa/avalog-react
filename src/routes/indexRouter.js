@@ -42,5 +42,9 @@ router
     const initState = {};
     res.render('Layout', initState);
   })
+  .get('/air', (req, res) => {
+    const initState = {};
+    res.render('Layout', initState);
+  })
 
 export default router;
