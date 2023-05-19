@@ -4,20 +4,20 @@ import ButtonDropdown from './ButtonDropdown';
 
 export default function Navbar() {
   const services = [
-    { name: 'Мультимодальный сервис', path: 'multimodal'},
+    { name: 'Мультимодальный сервис', path: 'multimodal' },
     { name: 'Морской сервис', path: 'sea' },
-    { name: 'Желехнодорожный сервис', path: 'railway'},
-    { name: 'Сборные грузы', path: 'cargo'},
-    { name: 'Автомобильные перевозки', path: 'cars'},
-    { name: 'Авиаперевозки', path: 'air'},
-    { name: 'Аренда контейнеров', path: 'rent'},
-    { name: 'Таможенное оформление', path: 'declaration'},
+    { name: 'Желехнодорожный сервис', path: 'railway' },
+    { name: 'Сборные грузы', path: 'cargo' },
+    { name: 'Автомобильные перевозки', path: 'cars' },
+    { name: 'Авиаперевозки', path: 'air' },
+    { name: 'Аренда контейнеров', path: 'rent' },
+    { name: 'Таможенное оформление', path: 'declaration' },
   ]
   const faq = [
-    { name: 'Мультимодальный сервис', path: 'multimodal'},
-    { name: 'Желехнодорожный сервис', path: 'railway'},
-    { name: 'Сборные грузы', path: 'cargo'},
-    { name: 'Таможенное оформление', path: 'declaration'},
+    { name: 'Мультимодальный сервис', path: 'multimodal' },
+    { name: 'Желехнодорожный сервис', path: 'railwaysInfo' },
+    { name: 'Сборные грузы', path: 'cargoInfo' },
+    { name: 'Таможенное оформление', path: 'declaration' },
   ]
   return (
     <div style={{ backgroundColor: '#2C2929', height: '98px' }} className='d-flex justify-content-between align-items-center'>
@@ -30,7 +30,7 @@ export default function Navbar() {
           <button type='button' className="dropdown-toggle" style={{ textDecoration: 'none', color: 'white', backgroundColor: 'transparent', border: 'none', padding: '0', margin: '0', fontSize: 'inherit', cursor: 'pointer', backgroundImage: 'none' }} data-bs-toggle="dropdown">
             Услуги
           </button>
-         <ButtonDropdown items={services} />
+          <ButtonDropdown items={services} />
         </div>
         <Link to="/jobs" style={{ textDecoration: 'none', color: 'white' }}>Вакансии</Link>
         <Link to="/contacts" style={{ textDecoration: 'none', color: 'white' }}>Контакты</Link>
@@ -38,7 +38,7 @@ export default function Navbar() {
           <button type='button' className="dropdown-toggle" style={{ textDecoration: 'none', color: 'white', backgroundColor: 'transparent', border: 'none', padding: '0', margin: '0', fontSize: 'inherit', cursor: 'pointer', backgroundImage: 'none' }} data-bs-toggle="dropdown">
             F.A.Q.
           </button>
-         <ButtonDropdown items={faq} />
+          <ButtonDropdown items={faq} />
         </div>
         <div>
           <Link to="/" style={{ fontSize: '16px', textDecoration: 'none', color: 'white' }}>ENG</Link>
