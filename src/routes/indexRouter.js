@@ -62,5 +62,9 @@ router
     const initState = {};
     res.render('Layout', initState);
   })
+  .get('/multimodal', (req, res) => {
+    const initState = {};
+    res.render('Layout', initState);
+  })
 
 export default router;
